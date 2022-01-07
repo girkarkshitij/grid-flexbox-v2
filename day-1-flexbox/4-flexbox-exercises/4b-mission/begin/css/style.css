@@ -140,6 +140,14 @@ figcaption a {
     color: var(--color8);
 }
 
+.mission {
+    display: block;
+}
+
+.mission img {
+    max-height: 100px;
+    display: block;
+}
 
 /* turn on flexbox here - prior to this, elements stacked individually as blocks */
 
@@ -155,6 +163,14 @@ figcaption a {
     /* turn off object position, inherit object-fit: cover */
     figure img {
         object-position: 0;
+    }
+    .mission{
+        display: flow-root;
+    }
+    .mission img {
+        float: left;
+    max-height: 200px;
+    display: block;
     }
 }
 
